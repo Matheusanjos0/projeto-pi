@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Miranda+Sans:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Miranda Sans", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #0f0f0f;
+    padding: 10px 20px;
+    
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+.hero{
+
+    background: url(imagens/hokage.png);
+    background-size: cover;
+    background-position: flex-end;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+    
